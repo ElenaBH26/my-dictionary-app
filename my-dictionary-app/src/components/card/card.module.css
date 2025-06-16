@@ -1,0 +1,46 @@
+@font-face {
+    font-family:'Anticva-Regular' ;
+    src: url('../../assets/fonts/Anticva Regular/Anticva-Regular.otf') format('opentype');
+    font-weight: normal;  
+    font-style: normal;
+    }
+
+
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    height: auto;
+    border: 1px solid rgb(235, 228, 218);
+    box-shadow: 2px 2px rgb(214 178 178);
+    border-radius: 5px;
+    background-color: rgb(238 225 200 / 79%);
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 50px;
+
+}
+
+
+.cardEnglish {
+    font-family: 'Anticva-Regular', serif ;
+    font-weight: 300;
+    font-size: 1.3em;
+    color: rgb(34, 76, 171)
+}
+
+.cardTranscription {
+    color: rgb(255, 42, 142);
+}
+
+.cardRussian {
+    color: black;
+}

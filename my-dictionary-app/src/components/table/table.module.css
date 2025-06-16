@@ -1,0 +1,27 @@
+@font-face {
+font-family:'Anticva-Regular' ;
+src: url('../../assets/fonts/Anticva Regular/Anticva-Regular.otf') format('opentype');
+font-weight: normal;  
+font-style: normal;
+}
+
+
+.wordTable { 
+border-collapse: collapse;
+width: 100%; 
+margin: 1em;
+background-color: rgb(235, 228, 218);
+}
+
+
+.tableRow {
+height: 55px;
+font-size: 1.2em;
+color: rgb(255, 42, 142);
+}
+
+.tableTitle {
+    font-family: 'Anticva-Regular', serif ;
+    font-size: 1.5em;
+    color: rgb(34, 76, 171)
+}

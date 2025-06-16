@@ -1,0 +1,32 @@
+@font-face {
+    font-family:'Anticva-Regular' ;
+    src: url('../../assets/fonts/Anticva Regular/Anticva-Regular.otf') format('opentype');
+    font-weight: normal;  
+    font-style: normal;
+}
+
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid rgb(237, 234, 234);
+    width: auto;
+    height: max-content;
+    padding: 0;
+}
+
+
+.headerTitle {
+    font-family: 'Anticva-Regular', sans-serif ;
+    font-size: 2.6em;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(34, 76, 171)
+}
+
+.logoHeader  {
+width: 7vh;
+}
