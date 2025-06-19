@@ -25,16 +25,15 @@ const hadndlePrevCard = () => {
 
   return (
     <div className="App">
-      <HeaderTitle />
-      <Table />    
-      <div className={styles.wrapper}>
-       {currenWord && (
+        <HeaderTitle />
+        <Table />    
+            <div className={styles.wrapper}>
+            {currenWord && (
         <CardWords key={currenWord.id} word={currenWord}/>  
-       )}
-      
+        )}
       <CardCorousel 
-      onPrev={hadndlePrevCard}
-      onNext={handleNextCard}
+            onPrev={hadndlePrevCard}
+            onNext={handleNextCard}
       />
       </div>
     </div>
