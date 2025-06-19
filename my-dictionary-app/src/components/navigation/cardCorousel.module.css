@@ -1,0 +1,38 @@
+.carouselContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.carouselBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(34, 76, 171);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.carouselBtn:hover {
+    background-color: rgb(51, 102, 222); ;
+}
+
+.prevBtn {
+    left: 12px;
+    top: -65px;
+}
+
+.nextBtn {
+    right: -12px;
+    top: -65px;
+}

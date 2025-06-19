@@ -4,9 +4,9 @@ import styles from './cardCorousel.module.css';
 
 function CardCorousel({onPrev, onNext}) {
     return (
-        <div className={styles.carousel}>
-            <button onClick={onPrev}>Назад</button>
-            <button onClick={onNext}>Вперед</button>
+        <div className={styles.carouselContainer}>
+            <button onClick={onPrev} className={`${styles.carouselBtn} ${styles.prevBtn}`}>&lt;</button>
+            <button onClick={onNext}  className={`${styles.carouselBtn} ${styles.nextBtn}`}>&gt;</button>
         </div>
     );
 }

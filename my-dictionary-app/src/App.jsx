@@ -31,11 +31,12 @@ const hadndlePrevCard = () => {
        {currenWord && (
         <CardWords key={currenWord.id} word={currenWord}/>  
        )}
-      </div>
+      
       <CardCorousel 
       onPrev={hadndlePrevCard}
       onNext={handleNextCard}
       />
+      </div>
     </div>
   );
 }
