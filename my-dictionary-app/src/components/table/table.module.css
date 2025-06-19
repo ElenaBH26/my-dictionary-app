@@ -15,13 +15,31 @@ background-color: rgb(235, 228, 218);
 
 
 .tableRow {
-height: 55px;
-font-size: 1.2em;
-color: rgb(255, 42, 142);
+    height: 55px;
+    font-size: 1.2em;
+    color: rgb(34, 76, 171)
 }
 
 .tableTitle {
     font-family: 'Anticva-Regular', serif ;
     font-size: 1.5em;
     color: rgb(34, 76, 171)
+}
+
+.editButton {
+    border: transparent;
+    border-radius: 0.2em;
+    background-color: rgb(34, 76, 171);
+    color: white;
+    height: 30px;
+    cursor: pointer;
+   
+}
+
+
+.tableInput {
+    border: 1px solid #890e0e;  /* Пример стиля для полей ввода */
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
 }
