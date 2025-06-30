@@ -24,3 +24,6 @@
   color: rgb(34, 76, 171);
   cursor: pointer;
 }
+.notFoundLink:hover {
+  text-decoration: underline;
+}
