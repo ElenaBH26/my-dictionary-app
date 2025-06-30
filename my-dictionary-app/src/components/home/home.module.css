@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Anticva-Regular";
+  src: url("../../assets/fonts/Anticva Regular/Anticva-Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Anticva-Regular", serif;
+  font-size: 1.5em;
+  color: rgb(34, 76, 171);
+  font-weight: lighter;
+}
+
+.nav {
+  font-family: "Montserrat-VariableFont_wght.ttf", serif;
+}

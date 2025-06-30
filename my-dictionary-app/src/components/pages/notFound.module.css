@@ -1,0 +1,26 @@
+.notFoundContainer {
+  text-align: center;
+  padding: 40px;
+}
+
+.notFoundTitle {
+  font-family: "Anticva-Regular", serif;
+  font-weight: 200;
+  font-size: 3em;
+  color: rgb(34, 76, 171);
+}
+
+.notFoundMessage {
+  font-family: "Montserrat-VariableFont_wght.ttf", serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-top: 60px;
+}
+
+.notFoundLink {
+  font-family: "Montserrat-VariableFont_wght.ttf", serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(34, 76, 171);
+  cursor: pointer;
+}
