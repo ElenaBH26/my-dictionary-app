@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./card.module.css";
 
-function CardWords({ word }) {
+function CardWords({ word, onWordsStudied }) {
   const [showTranslation, setShowTranslation] = useState(false);
+  const buttonRef = useRef(null);
 
   const handleShowTranslation = () => {
     setShowTranslation(true);
+    onWordsStudied();
   };
+
+  useEffect(() => {
+    if (buttonRef.current) {
+      buttonRef.current.focus();
+    }
+  }, []);
 
   return (
     <div className={styles.cardContainer}>
@@ -16,6 +24,7 @@ function CardWords({ word }) {
         <p className={styles.cardRussian}>{word.russian}</p>
       ) : (
         <button
+          ref={buttonRef}
           className={styles.showTranslationButton}
           onClick={handleShowTranslation}
         >

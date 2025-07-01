@@ -36,7 +36,7 @@ const data = [
     { 
     id: "16372", 
     english: "education", 
-    transcription: "|edʒʊˈkeɪʃ(ə)n|", 
+    transcription: "[edʒʊˈkeɪʃ(ə)n]", 
     russian: "образование", 
     tags: "education", 
     tags_json: "[education]", 

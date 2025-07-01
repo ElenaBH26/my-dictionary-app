@@ -45,8 +45,9 @@
 }
 
 .cardTranscription {
-  font-family: "PoiretOne-Regular", serif;
-  font-size: 1.5em;
+  font-family: "Montserrat-VariableFont_wght.ttf", serif;
+  font-weight: lighter;
+  font-size: 1.3em;
   color: rgb(255, 42, 142);
 }
 
@@ -76,5 +77,11 @@
   font-family: "Anticva-Regular", serif;
   font-weight: lighter;
   font-size: 2.3em;
+  color: rgb(34, 76, 171);
+}
+
+.studiedWordDescr {
+  font-family: "Montserrat-VariableFont_wght.ttf", serif;
+  font-size: 1.3em;
   color: rgb(34, 76, 171);
 }
